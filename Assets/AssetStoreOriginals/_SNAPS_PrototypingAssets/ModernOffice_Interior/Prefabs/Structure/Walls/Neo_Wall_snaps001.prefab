@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4160519767647610}
   - component: {fileID: 33553627297125890}
   - component: {fileID: 23917846597765686}
-  - component: {fileID: 6541282360865550752}
+  - component: {fileID: 64734768092488202}
   m_Layer: 0
   m_Name: Neo_Wall_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4160519767647610
 Transform:
@@ -79,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6541282360865550752
-BoxCollider:
+--- !u!64 &64734768092488202
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,6 +89,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.31250003, y: 3, z: 3.000001}
-  m_Center: {x: 0, y: 1.5, z: 1.500001}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 3e8ab2fed2396ac4cbbdbc1f3b74594a, type: 2}

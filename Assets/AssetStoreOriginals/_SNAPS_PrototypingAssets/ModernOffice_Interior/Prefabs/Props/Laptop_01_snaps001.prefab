@@ -11,14 +11,13 @@ GameObject:
   - component: {fileID: 4811157832504852}
   - component: {fileID: 33495696373696048}
   - component: {fileID: 23302700234595522}
-  - component: {fileID: 6014236707878352254}
-  - component: {fileID: 208543312845865256}
+  - component: {fileID: 7982840042619173407}
   m_Layer: 0
   m_Name: Laptop_01_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4811157832504852
 Transform:
@@ -81,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6014236707878352254
-BoxCollider:
+--- !u!64 &7982840042619173407
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,22 +90,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.390625, y: 0.25863552, z: 0.31607768}
-  m_Center: {x: -0.0078125, y: 0.12931776, z: 0.00960134}
---- !u!208 &208543312845865256
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163334601776374}
-  m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.19500001, y: 0.12900001, z: 0.158}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.008, y: 0.12900001, z: 0.010000001}
-  m_TimeToStationary: 0.5
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f1bce716cf0d0044da48fc5385ec2d0e, type: 2}

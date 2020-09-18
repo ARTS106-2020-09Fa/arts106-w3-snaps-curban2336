@@ -11,14 +11,13 @@ GameObject:
   - component: {fileID: 4357272203782516}
   - component: {fileID: 33087643056426850}
   - component: {fileID: 23076923815233116}
-  - component: {fileID: 4253608118129405727}
-  - component: {fileID: 208325354201026390}
+  - component: {fileID: 2826140923276577908}
   m_Layer: 0
   m_Name: AirDuct_01_Corner_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4357272203782516
 Transform:
@@ -80,7 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4253608118129405727
+--- !u!64 &2826140923276577908
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,20 +92,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: f2211dd587b1cf64d8afb8cc257c51ec, type: 2}
---- !u!208 &208325354201026390
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143738308948984}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.625, y: 0.24800001, z: 0.625}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.125, y: -0.201, z: 0.37500003}
-  m_TimeToStationary: 0.5
+  m_Mesh: {fileID: 4300000, guid: fc0b5d78437d37148ae72498507177d1, type: 2}

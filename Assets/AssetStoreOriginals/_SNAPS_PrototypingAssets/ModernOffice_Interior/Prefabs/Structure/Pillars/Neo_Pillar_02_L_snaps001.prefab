@@ -12,13 +12,12 @@ GameObject:
   - component: {fileID: 33177832082361008}
   - component: {fileID: 23639634548313652}
   - component: {fileID: 65927455203519206}
-  - component: {fileID: 208453290010958430}
   m_Layer: 0
   m_Name: Neo_Pillar_02_L_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4770021243912512
 Transform:
@@ -93,19 +92,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0625, y: 3, z: 1.0625}
   m_Center: {x: 0, y: 1.5, z: 0}
---- !u!208 &208453290010958430
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473441068968342}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.531, y: 1.5000001, z: 0.531}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 1.5000001, z: 0}
-  m_TimeToStationary: 0.5

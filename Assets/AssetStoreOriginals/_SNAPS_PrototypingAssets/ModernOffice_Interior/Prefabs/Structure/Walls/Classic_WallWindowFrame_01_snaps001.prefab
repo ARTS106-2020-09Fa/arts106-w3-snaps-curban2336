@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4383270365464272}
   - component: {fileID: 33668128516485648}
   - component: {fileID: 23687905360912682}
-  - component: {fileID: 5723544298148894868}
+  - component: {fileID: 64766580851450178}
   m_Layer: 0
   m_Name: Classic_WallWindowFrame_01_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4383270365464272
 Transform:
@@ -79,7 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5723544298148894868
+--- !u!64 &64766580851450178
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,4 +92,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: ebebe220a90739747abaff376d84f175, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 3415d2b78be1e23479ad8d8ab1cc58fd, type: 2}

@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 4109278152453560}
   - component: {fileID: 33530575712273076}
   - component: {fileID: 23310860173330918}
-  - component: {fileID: 7896668031151434233}
   m_Layer: 0
   m_Name: Neo_WallDoubleDoors_01_4m_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4109278152453560
 Transform:
@@ -80,16 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7896668031151434233
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550095947069160}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3125767, y: 4, z: 3.000001}
-  m_Center: {x: 0.00003835559, y: 2, z: 1.499999}

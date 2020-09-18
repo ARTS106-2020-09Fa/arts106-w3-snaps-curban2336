@@ -11,14 +11,13 @@ GameObject:
   - component: {fileID: 4268489408920228}
   - component: {fileID: 33601516558572694}
   - component: {fileID: 23338643888078432}
-  - component: {fileID: 8225916703280627768}
-  - component: {fileID: 208004200151444284}
+  - component: {fileID: 8742480403598413537}
   m_Layer: 0
   m_Name: PaperTray_02_snaps001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4268489408920228
 Transform:
@@ -80,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8225916703280627768
-BoxCollider:
+--- !u!64 &8742480403598413537
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,22 +89,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.296875, y: 0.046875, z: 0.390625}
-  m_Center: {x: 0.0078125, y: 0.0234375, z: 0.0390625}
---- !u!208 &208004200151444284
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466551327114840}
-  m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.148, y: 0.023000002, z: 0.19500001}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.008, y: 0.023000002, z: 0.039}
-  m_TimeToStationary: 0.5
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f8e00893c42ebe74b993fc250b15491e, type: 2}
